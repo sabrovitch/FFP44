@@ -1,0 +1,108 @@
+@media screen and (max-width:768px) {
+
+    //responsive for smartphone
+    body {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    // rewritting on bootstrap nav for elements display inline 
+    .navbar-nav {
+        flex-direction: row;
+        max-width: max-content;
+    }
+
+    :link {
+        padding: 0.25rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar-small {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        background-color: aquamarine;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    //responsive for tablet 
+    body {
+        font-size: 1.5rem;
+    }
+
+    // rewritting on bootstrap nav for elements display inline  
+    .navbar-nav {
+        flex-direction: row;
+        max-width: max-content;
+    }
+
+    :link {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar-medium {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        background-color: aquamarine;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    //reponsive for desktop
+    body {
+        font-size: 1rem;
+    }
+
+    // rewritting on bootstrap nav for elements display inline  
+    .navbar-nav {
+        flex-direction: row;
+        max-width: max-content;
+    }
+
+    :link {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .navbar-large {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        background-color: aquamarine;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
